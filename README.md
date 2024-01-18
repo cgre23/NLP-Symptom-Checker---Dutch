@@ -16,7 +16,9 @@ our app.
 
 ## Model training
 
-A XG Boost classifier model is trained in the Jupyter Notebook called *Training.ipnyb*.  The model is already trained and all the artifacts are saved in the artifacts folder. An API is then created in the *app.py* file which launches the model and provides predictions.
+A XG Boost classifier model is trained in the Jupyter Notebook called *Training.ipnyb*.  The model is already trained and all the artifacts are saved in the artifacts folder. An API is then created in the *app.py* file which launches the model and provides predictions.  Activate the virtual environment. If the venv folder is not available, a new virtual environment can be created using the available *requirements.txt* file.
+
+The model takes as input the free text from users, and outputs multiple possible medical diagnoses. The API is public and can be tested as described in the ** Deploying to Google Cloud (public API) ** section
 
 
 ## Build Docker container locally
